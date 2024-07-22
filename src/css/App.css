@@ -3,9 +3,12 @@
   height: 50px;
   text-align: center;
   background-color: aquamarine;
+  display: table;
 }
 
 .SN > p {
-  display: inline-block;
+  display: table-cell;
   vertical-align: middle;
+  overflow-wrap: anywhere;
+  margin: 3px;
 }
